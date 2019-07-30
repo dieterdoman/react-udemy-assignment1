@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
+import UserOutput from "./UserOutput/UserOutput";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <UserOutput username="name1"/>
+        <UserOutput username="name2"/>
+        <UserOutput username="name3"/>
+        <UserOutput username="name4"/>
         <ol>
           <li>Create TWO new components: UserInput and UserOutput</li>
           <li>UserInput should hold an input element, UserOutput two paragraphs</li>

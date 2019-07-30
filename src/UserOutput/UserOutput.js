@@ -1,9 +1,9 @@
 import React from 'react';
 
-const UserOutput = () => {
+const UserOutput = (props) => {
     return (
         <div>
-            <p>Paragraph1</p>
+            <p>Username: {props.username}</p>
             <p>Paragraph2</p>
         </div>
     );
