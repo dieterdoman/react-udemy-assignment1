@@ -22,9 +22,6 @@ class App extends Component {
         <UserOutput username={username}/>
         <UserOutput username={username}/>
         <UserOutput username={username}/>
-        <ol>
-          <li>Add styling of your choice to your components/ elements in the components - both with inline styles and stylesheets</li>
-        </ol>
       </div>
     );
   }
